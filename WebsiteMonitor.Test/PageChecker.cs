@@ -1,7 +1,7 @@
 namespace WebsiteMonitor.Test
 {
     [TestClass]
-    public class UnitTest1 : PageTest
+    public class PageChecker : PageTest
     {
         [TestMethod]
         public async Task HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage()
