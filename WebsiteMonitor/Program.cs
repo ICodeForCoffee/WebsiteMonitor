@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using WebsiteMonitor.Test;
+
 Console.WriteLine("Hello, World!");
 
 
@@ -15,7 +17,20 @@ update the console
  * 
  */
 
-NewMethod();
+
+
+
+var timerBit = new TimerContainer();
+
+
+Console.WriteLine("Polling every 30 seconds.");
+Console.WriteLine("Press Enter when done:");
+Console.ReadLine();
+timerBit.Dispose();
+
+//NewMethod();
+
+
 
 static void NewMethod()
 {
